@@ -896,17 +896,31 @@ a.email {
     line-height: 1em;
 }
 
-#gallery-link {
+.img-link {
     text-align: center;
     display: block;
 }
 
-#gallery-link img {
+.img-link img {
     max-width: 150px;
     width: 100%;
 }
 
-#gallery-link:active, #gallery-link:focus {
+.registry .img-link {
+    margin: 10px auto;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.25);
+    max-width: 350px;
+    width: 100%;
+}
+
+.registry .img-link img {
+    height: 100px;
+    max-width: 100%;
+    width: auto;
+}
+
+.img-link:active, .img-link:focus {
     outline: none;
 }
 

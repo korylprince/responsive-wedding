@@ -7,6 +7,8 @@ This site was modified from the great template at [responsive-wedding](https://g
 
 I modified things a bit and added the gallery plugin.
 
+You can view the site at [www.meandbre.com](http://www.meandbre.com/).
+
 ========
 
 ## LICENSE

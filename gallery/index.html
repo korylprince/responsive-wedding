@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+<title>Me and Bre - Gallery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../css/lightbox.css">
+
+<!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style type="text/css">
+.img-thumbnail {
+    max-height: 125px;
+    margin: 5px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" rel="home" href="#">Me and Bre Gallery</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="../">Back</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="container">
+    <div class="col-md-12">
+        <script type="text/javascript">
+            for (var i = 1; i <= 81; i++ ) {
+                if (i < 10) {
+                    var f = "0" + i.toString() + ".jpg";
+                } else {
+                    var f = "" + i.toString() + ".jpg";
+                }
+                document.write('<a href="'+f+'" data-lightbox="gallery"><img class="img-thumbnail" src="thumbs/'+f+'" /></a>');
+            }
+        </script>
+
+    </div>
+
+</div><!-- /.container -->
+<script src="../js/vendor/jquery-1.9.1.min.js"></script>
+<script src="../js/lightbox.min.js"></script>
+</body>
+</html>

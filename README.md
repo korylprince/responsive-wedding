@@ -3,15 +3,17 @@ responsive-wedding
 
 An HTML5 responsive design using jquery waypoints & scroll-to for a pleasant single-page navigation. This template makes use of media queries and scales well for all mobile form-factors.
 
-A live demo can be viewed at:
+This site was modified from the great template at [responsive-wedding](https://github.com/bmgdev/responsive-wedding) by Bradley Greenwood.
 
-   http://sarahlovesbradley.com
+I modified things a bit and added the gallery plugin.
 
 ========
 
-![Preview](https://github.com/bmgdev/responsive-wedding/blob/master/preview.png?raw=true)
-
 ## LICENSE
+
+The [lightbox2](https://github.com/lokesh/lightbox2) code is licensed under the [Creative Commons Attribution 2.5 License](http://creativecommons.org/licenses/by/2.5/).
+
+Additions to original code are Copyright Kory Prince and fall under the original license included below.
 
 (The MIT License)
 
